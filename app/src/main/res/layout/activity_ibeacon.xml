@@ -6,12 +6,4 @@
     android:layout_height="match_parent"
     tools:context="com.example.masters.mytest_iba.IBEACONActivity">
 
-    <TextView
-        android:id="@+id/textshow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="26dp" />
 </android.support.constraint.ConstraintLayout>

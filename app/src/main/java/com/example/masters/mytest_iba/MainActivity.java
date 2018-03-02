@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(MainActivity.this,IBEACONActivity.class);
+                Intent intent = new Intent(MainActivity.this,Main2Activity.class);
                 intent.putExtra(String.valueOf(nameText),"nametext");
                 startActivity(intent);
                 Toast.makeText(MainActivity.this, nameText.getText().toString() , Toast.LENGTH_LONG).show();

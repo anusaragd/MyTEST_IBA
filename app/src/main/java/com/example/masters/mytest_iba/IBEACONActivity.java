@@ -10,23 +10,23 @@ import android.widget.TextView;
 
 public class IBEACONActivity extends AppCompatActivity {
 
-    TextView Show;
-    String nameText;
+//    TextView Show;
+//    String nameText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ibeacon);
 
-        Intent intent = getIntent();
-        nameText = intent.getStringExtra(nameText);
+//        Intent intent = getIntent();
+//        nameText = intent.getStringExtra(nameText);
+//
+////        Log.e("GGG",nameText);
+//
+//        Show = (TextView) findViewById(R.id.textshow);
+//        Show.setText(Build.BRAND + " " + Build.BOOTLOADER);
+////        Show.setText();
+////        Show.getText().toString();
 
-//        Log.e("GGG",nameText);
-
-        Show = (TextView) findViewById(R.id.textshow);
-//        Show.setText(Build.BRAND + " " + nameText);
-        Show.setText(MainActivity.BATTERY_SERVICE);
-//        Show.getText().toString();
-
-    }
-}
+        }
+        }
